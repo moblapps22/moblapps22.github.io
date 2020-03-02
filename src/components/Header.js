@@ -14,7 +14,7 @@ const Header = (props) => (
             <li>Comprehensive AWS Expertise</li>
             <li>Consulting CTO</li>
         </ul>
-        <a class="servicelink" href="#intro"><i class="fa fa-angle-down fa-4x"></i></a>
+        <a class="servicelink" href="#services"><i class="fa fa-angle-down fa-4x"></i></a>
         <br/>
  </header>
 
