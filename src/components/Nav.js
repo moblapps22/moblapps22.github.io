@@ -4,9 +4,8 @@ import Scroll from './Scroll'
 import animate from '../assets/css/responsive.css';
 
 const Nav = (props) => (
-    <nav id="nav" className={props.sticky ? 'alt' : ''}  >
+    <nav id="nav" className={props.sticky ? 'alt' : ''} >
         <Scrollspy items={ ['Services', 'Clients', 'Projects', 'About','Blog','Contact'] } currentClassName="is-active" offset={-300}>
-        
           <ul class="main-nav">
             <li >
                 <Scroll type="id" element="services">

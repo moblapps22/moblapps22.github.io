@@ -35,7 +35,7 @@ class Index extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <Nav sticky={this.state.stickyNav} />
-
+        
         <div id="main">
           <section id="services" className="main">
             <div className="spotlight">
@@ -47,7 +47,7 @@ class Index extends React.Component {
                 Every project is completely outlined in the proposal with key milestones and delivery dates.
 You always know what to expect because my primary focus is on deliverables and deadlines.
                 </p>
-              
+
               </div>
               <span className="image">
                 <img src={pic01} alt="" />
