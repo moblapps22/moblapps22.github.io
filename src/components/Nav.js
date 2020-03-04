@@ -23,13 +23,13 @@ import {
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+const toggle = () => setIsOpen(!isOpen);
 
   return (
-      <Navbar sticky={'top'} color="light" light expand="md" className="d-flex justify-content-center" fix>
+      <Navbar sticky={'top'} color="light" light expand="md" className="justify-content-center" fix>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav  className="main-nav mr-auto" navbar>
+          <Nav className="justify-content-center mr-auto" navbar>
             <NavItem>
               <NavLink href="#services">Services</NavLink>
             </NavItem>
