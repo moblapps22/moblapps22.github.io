@@ -5,7 +5,7 @@ import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
-import Nav from '../components/Nav'
+import Navigation from '../components/Nav'
 
 class Index extends React.Component {
   constructor(props) {
@@ -34,8 +34,8 @@ class Index extends React.Component {
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
-        <Nav sticky={this.state.stickyNav} />
-        
+        <Navigation sticky={this.state.stickyNav}  />
+
         <div id="main">
           <section id="services" className="main">
             <div className="spotlight">
