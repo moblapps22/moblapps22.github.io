@@ -1,8 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../assets/css/responsive.css';
+
 
 import {
+  Container,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -24,10 +27,9 @@ const Navigation = (props) => {
 
   return (
       <Navbar sticky={'top'} color="light" light expand="md" className="d-flex justify-content-center" fix>
-        <NavbarBrand href="/"></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className={props.sticky ? 'alt' : ''} navbar>
+          <Nav  className="main-nav mr-auto" navbar>
             <NavItem>
               <NavLink href="#services">Services</NavLink>
             </NavItem>
