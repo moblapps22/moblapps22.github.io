@@ -52,6 +52,7 @@ class Index extends React.Component {
             <img src={aws3} alt="" />
 
             </div>
+<div className="col-md-9">
             <h6>
                 When your website <b>IS your business</b>, revenue depends on reliable, automated infrastructure and
                 proven
@@ -67,7 +68,7 @@ class Index extends React.Component {
                 needs and bring a practical approach to build the <b>exact solution that works for you.</b>
 
             </h6>
-            <div className="col-md-9">
+
 
         </div>
          </div>
