@@ -55,7 +55,7 @@ const Navigation = (props) => {
               <NavLink href="#about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#blog">Blog</NavLink>
+              <NavLink href="blog">Blog</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#contact">Contact</NavLink>
