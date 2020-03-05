@@ -23,13 +23,19 @@ import {
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
-const toggle = () => setIsOpen(!isOpen);
-
+  const toggle = () => setIsOpen(!isOpen);
+  let bar1 ={
+     width: "100%",
+     border: "0px gray",
+     display: "flex",
+     justifyContent: "center"
+   }
   return (
-      <Navbar sticky={'top'} color="light" light expand="md" className="justify-content-center" fix>
+      <Navbar sticky={'top'} color="light" light expand="md" className="d-flex justify-content-center" fix>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="justify-content-center mr-auto" navbar>
+        <div style={bar1}>
+         <Nav className="justify-content-center" navbar>
             <NavItem>
               <NavLink href="#services">Services</NavLink>
             </NavItem>
@@ -48,21 +54,8 @@ const toggle = () => setIsOpen(!isOpen);
             <NavItem>
               <NavLink href="#contact">Contact</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
           </Nav>
+          </div>
         </Collapse>
       </Navbar>
   );
