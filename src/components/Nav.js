@@ -5,19 +5,12 @@ import '../assets/css/responsive.css';
 import '../assets/css/style.css';
 
 import {
-  Container,
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap';
 
 const Navigation = (props) => {

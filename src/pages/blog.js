@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import HeaderBlog from '../components/HeaderBlog'
-import pic04 from '../assets/images/pic04.jpg'
 import NavOther from '../components/NavOther'
 
 class Blog extends React.Component {

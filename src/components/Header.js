@@ -2,8 +2,7 @@ import React from 'react'
 
 import logo from '../assets/images/dave-stern-consulting.png';
 import header from '../assets/css/header.css';
-import style from '../assets/css/style.css';
-import animate from '../assets/css/animate.css';
+
 
 
 const Header = (props) => (
