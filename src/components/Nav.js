@@ -13,6 +13,8 @@ import {
   NavLink
 } from 'reactstrap';
 
+
+
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -36,22 +38,22 @@ const Navigation = (props) => {
         <div style={bar1}>
          <Nav className="justify-content-center" navbar>
             <NavItem>
-              <NavLink href="#services">Services</NavLink>
+              <NavLink href="#services" onClick={toggle} >Services</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#clients">Clients</NavLink>
+              <NavLink href="#clients" onClick={toggle}>Clients</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#projects">Projects</NavLink>
+              <NavLink href="#projects" onClick={toggle}>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#about">About</NavLink>
+              <NavLink href="#about" onClick={toggle}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="blog">Blog</NavLink>
+              <NavLink href="blog" onClick={toggle}>Blog</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#contact">Contact</NavLink>
+              <NavLink href="#contact" onClick={toggle}>Contact</NavLink>
             </NavItem>
           </Nav>
           </div>
